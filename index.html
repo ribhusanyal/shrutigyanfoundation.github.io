@@ -23,15 +23,24 @@
     </section>
     <section id="events">
         <h2>Upcoming Events</h2>
+        <button id="toggle-events">Show/Hide Events</button>
         <p>Details about upcoming events and workshops will be listed here.</p>
-    </section>
+    </section>    
     <section id="contact">
         <h2>Contact Us</h2>
         <p>Email: <a href="mailto:info@shrutigyan.org">info@shrutigyan.org</a></p>
     </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="email" placeholder="Your email" required>
+            <textarea placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
     <footer>
-        <p>&copy; 2023 Shrutigyan Foundation. All rights reserved.</p>
-    </footer>
+        <p>&copy; <span id="current-year"></span> Shrutigyan Foundation. All rights reserved.</p>
+    </footer>    
     <script src="js/script.js"></script>
 </body>
 </html>
